@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-const TabButton = () => {
+const TabButton = ({Children}) => {
+    function handleClick(){
+        console.log("Hello World")
+    }
   return (
-    <div>TabButton</div>
+    <div>
+        <li>
+            <button onClick={handleClick}>{Children}</button>
+        </li>
+    </div>
   )
 }
 
