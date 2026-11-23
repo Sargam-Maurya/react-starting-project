@@ -1,3 +1,0 @@
-Learning Git commands
-This is my first practice file.
-I am learning git restore command.
